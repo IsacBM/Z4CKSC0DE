@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(44, 44, 44);
+    font-family: 'Iceland', cursive;
+    font-size: 18px;
+}
+header{
+    background-color: rgb(25, 25, 25);
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 12px;
+    transition: 0.2s;
+}
+.header-container a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.links a{
+    opacity: 0.7;
+    border-bottom: 2px;
+}
+.links a:hover{
+    opacity: 1;
+    color: white;
+    border-bottom: #00d7df solid 2px;
+}
+.header-container a{
+    margin: 18px;
+}
+
+.botao a{
+    padding: 12px;
+    border-radius: 7px;
+}
+#login{
+    border: rgb(197, 197, 197) solid 2px;
+}
+#login:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+}
+#criar{
+    border: #00d7df solid 2px;
+}
+#criar:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+}
+header{
+    border-bottom: rgb(107, 107, 107) solid 1px;
+    box-shadow: 2px 2px 6px #00d7df;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    margin: 0px 12px;
+    color: aliceblue;
+    font-size: 42px;
+    border-bottom: #00d7df solid 2.6px;
+}
+.logo img{
+    width: 46px;
+    height: 48px;
+}
+/*Body*/
+.codigo{
+    margin: 20px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+pre {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    overflow: auto;
+    font-size: .875em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+pre {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 4px solid #00d7df;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+pre {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: pre;
+    margin: 1em 0px;
+}
+#rosa{
+    color: rgb(190, 52, 156);
+}
+#verde{
+    color: rgb(8, 99, 8);
+}
+#azul{
+    color: blue;
+}
+   /* Footer */
+
+   footer{
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: rgb(25, 25, 25);
+    box-shadow: 2px -2px 10px #00d7df;
+}
+.icons{
+    padding: 12px;
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #00d7df;
+    padding: 12px;
+    border-radius: 50%;
+}
+.icons a:hover{
+    opacity: 0.5;
+    transition: 0.6s;
+}
+.icons span{
+    color: #00d7df;
+}
+.copy{
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
